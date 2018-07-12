@@ -1,0 +1,33 @@
+jQuery(document).ready(function() {	
+    fadeGrayscale();
+});
+
+function fadeGrayscale() {
+    $('.grayscale').parent().mouseenter(function() {
+    	$(this).find('img.bw_thumbnail').stop().animate({opacity:0}, 500);
+    
+    }).mouseleave(function(){
+    	$(this).find('img.bw_thumbnail').stop().animate({opacity:1}, 500);
+    })
+}
+/*
+     FILE ARCHIVED ON 07:01:50 Jun 14, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:48:36 Jun 29, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 1178.29 (3)
+  esindex: 0.007
+  captures_list: 1194.238
+  CDXLines.iter: 12.268 (3)
+  PetaboxLoader3.datanode: 110.936 (5)
+  exclusion.robots: 0.175
+  exclusion.robots.policy: 0.162
+  RedisCDXSource: 0.694
+  PetaboxLoader3.resolve: 1766.774 (3)
+  load_resource: 718.683
+*/

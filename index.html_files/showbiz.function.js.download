@@ -1,0 +1,74 @@
+var tpj=jQuery;
+
+tpj(document).ready(function() {
+
+if (tpj.fn.cssOriginal!=undefined)
+	tpj.fn.css = tpj.fn.cssOriginal;
+
+	tpj('#sitemap-showbiz').services(
+		{										
+			width:630,
+			height:216,							
+			slideAmount:4,
+			slideSpacing:10,							
+			touchenabled:"on",
+			mouseWheel:"on",
+			hoverAlpha:"off",
+			slideshow:0,
+			hovereffect:"on",
+			callBack:function() { }
+			
+		});
+        
+	tpj('.front-showbiz-1').services(
+		{										
+			width:950,
+			height:239,							
+			slideAmount:4,
+			slideSpacing:10,							
+			touchenabled:"on",
+			mouseWheel:"on",
+			hoverAlpha:"off",
+			slideshow:0,
+			hovereffect:"on",
+			callBack:function() { }
+			
+		});
+       
+	tpj('.front-showbiz-2').services(
+		{										
+			width:950,
+			height:239,							
+			slideAmount:3,
+			slideSpacing:10,							
+			touchenabled:"on",
+			mouseWheel:"on",
+			hoverAlpha:"off",
+			slideshow:0,
+			hovereffect:"on",
+			callBack:function() { }
+			
+		});						
+			
+});
+/*
+     FILE ARCHIVED ON 07:05:46 Jun 14, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:46:49 Jun 29, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 50.09 (3)
+  esindex: 0.007
+  captures_list: 69.234
+  CDXLines.iter: 13.891 (3)
+  PetaboxLoader3.datanode: 72.059 (5)
+  exclusion.robots: 0.205
+  exclusion.robots.policy: 0.191
+  RedisCDXSource: 1.6
+  PetaboxLoader3.resolve: 215.075 (2)
+  load_resource: 280.316
+*/

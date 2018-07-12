@@ -1,0 +1,68 @@
+jQuery(document).ready(function() {	
+    meta_Height();
+    meta_Height2();
+    tag_cloud();
+    logo_blog_title();
+});
+
+function meta_Height(){
+    
+    var meta_Column = $('.blog .post .grid_2.alpha');
+    
+    meta_Column.each(function() {
+        var contentColumnHeight = $(this).next('.blog .post .grid_6.omega').find('.content_').height();
+        var meta_ColumnHeight = $(this).find('.meta_').height();
+        if(meta_ColumnHeight<contentColumnHeight){
+            $(this).css('height', contentColumnHeight);
+        }                         
+    });
+
+}
+
+function meta_Height2(){
+    
+    var meta_Column = $('.blog .post .grid_2.alpha');
+    
+    meta_Column.each(function() {
+        var contentColumnHeight = $(this).next('.blog .post .grid_10.omega').find('.content_').height();
+        var meta_ColumnHeight = $(this).find('.meta_').height();
+        if(meta_ColumnHeight<contentColumnHeight){
+            $(this).css('height', contentColumnHeight);
+        }                         
+    });
+
+}
+function tag_cloud(){
+    $('.tagcloud a').prepend('+&nbsp; ');;
+}
+
+function logo_blog_title(){
+    
+    var logo_imgHeight = $('#logo').height();
+    var logo_blogTitle = $('#logo.img h5');
+    var margin =  (logo_imgHeight-36)/2+9;
+    
+    logo_blogTitle.css('marginTop', margin);
+
+}
+/*
+     FILE ARCHIVED ON 07:03:19 Jun 14, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:46:50 Jun 29, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 56.199 (3)
+  esindex: 0.004
+  captures_list: 72.062
+  CDXLines.iter: 11.765 (3)
+  PetaboxLoader3.datanode: 91.091 (5)
+  exclusion.robots: 0.128
+  exclusion.robots.policy: 0.119
+  RedisCDXSource: 1.814
+  PetaboxLoader3.resolve: 251.573 (2)
+  load_resource: 337.112
+*/

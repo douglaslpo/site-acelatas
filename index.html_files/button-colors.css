@@ -1,0 +1,241 @@
+.button.grey{
+    background-color: #959595;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#959595)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #959595); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #959595); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #959595); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #959595);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #959595;
+}
+.button.color1{
+    background-color: #26537a;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#26537a)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #26537a); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #26537a); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #26537a); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #26537a);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #26537a;
+}
+.button.color2{
+    background-color: #b25735;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#b25735)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #b25735); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #b25735); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #b25735); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #b25735);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #b25735;
+}
+.button.color3{
+    background-color: #cf914f;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#cf914f)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #cf914f); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #cf914f); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #cf914f); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #cf914f);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #cf914f;
+}
+.button.color4{
+    background-color: #ebc05c;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#ebc05c)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #ebc05c); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #ebc05c); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #ebc05c); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #ebc05c);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #ebc05c;
+}
+.button.color5{
+    background-color: #8eb836;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#8eb836)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #8eb836); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #8eb836); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #8eb836); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #8eb836);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #8eb836;
+}
+.button.color6{
+    background-color: #48d1c7;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#48d1c7)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #48d1c7); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #48d1c7); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #48d1c7); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #48d1c7);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #48d1c7;
+}
+.button.color7{
+    background-color: #e05312;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#e05312)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #e05312); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #e05312); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #e05312); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #e05312);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #e05312;
+}
+.button.color8{
+    background-color: #ad1384;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#ad1384)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #ad1384); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #ad1384); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #ad1384); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #ad1384);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #ad1384;
+}
+.button.color9{
+    background-color: #234061;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#234061)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #234061); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #234061); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #234061); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #234061);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #234061;
+}
+.button.color10{
+    background-color: #595503;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#595503)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #595503); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #595503); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #595503); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #595503);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #595503;
+}
+.button.color11{
+    background-color: #08775f;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#08775f)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #08775f); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #08775f); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #08775f); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #08775f);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #08775f;
+}
+.button.color12{
+    background-color: #5b2e45;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#5b2e45)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #5b2e45); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #5b2e45); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #5b2e45); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #5b2e45);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #5b2e45;
+}
+.button.color13{
+    background-color: #cb9807;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#cb9807)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #cb9807); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #cb9807); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #cb9807); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #cb9807);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #cb9807;
+}
+.button.color14{
+    background-color: #7b2301;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#7b2301)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #7b2301); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #7b2301); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #7b2301); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #7b2301);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #7b2301;
+}
+.button.color15{
+    background-color: #e03a3e;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#e03a3e)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #e03a3e); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #e03a3e); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #e03a3e); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #e03a3e);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #e03a3e;
+}
+.button.color16{
+    background-color: #963d97;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#963d97)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #963d97); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #963d97); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #963d97); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #963d97);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #963d97;
+}
+.button.color17{
+    background-color: #61bb46;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#61bb46)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #61bb46); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #61bb46); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #61bb46); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #61bb46);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #61bb46;
+}
+.button.color18{
+    background-color: #fdb827;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#fdb827)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #fdb827); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #fdb827); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #fdb827); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #fdb827);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #fdb827;
+}
+.button.color19{
+    background-color: #f5821f;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#f5821f)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #f5821f); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #f5821f); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #f5821f); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #f5821f);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #f5821f;
+}
+.button.color20{
+    background-color: #5687a6;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#5687a6)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #5687a6); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #5687a6); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #5687a6); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #5687a6);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #5687a6;
+}
+.button.color21{
+    background-color: #8fa63c;
+    background-image: -webkit-gradient(linear, left bottom, left bottom, from(rgba(255, 255, 255, 0.4)), to(#8fa63c)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), #8fa63c); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), #8fa63c); /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.4), #8fa63c); /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.4), #8fa63c);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    border-color: #8fa63c;
+}
+/*
+     FILE ARCHIVED ON 06:56:56 Jun 14, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:46:34 Jun 29, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 91.592 (3)
+  esindex: 0.011
+  captures_list: 124.501
+  CDXLines.iter: 21.957 (3)
+  PetaboxLoader3.datanode: 196.787 (5)
+  exclusion.robots: 0.344
+  exclusion.robots.policy: 0.324
+  RedisCDXSource: 6.421
+  PetaboxLoader3.resolve: 462.992 (2)
+  load_resource: 634.335
+*/

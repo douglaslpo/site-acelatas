@@ -1,0 +1,26 @@
+$(function() {
+    $( '.sf-menu li li' ).attr( 'class', 'noLava' );
+    $( '.current-menu-item, .current_page_item, .current-page-ancestor, .current-menu-parent, .current_page_item, .current_page_parent, .current_page_ancestor' ).addClass( 'selectedLava' );
+    $('.navi').lavaLamp(); 
+});
+/*
+     FILE ARCHIVED ON 06:58:33 Jun 14, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:46:54 Jun 29, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 364.341 (3)
+  esindex: 0.006
+  captures_list: 384.566
+  CDXLines.iter: 16.325 (3)
+  PetaboxLoader3.datanode: 99.378 (5)
+  exclusion.robots: 0.187
+  exclusion.robots.policy: 0.174
+  RedisCDXSource: 0.607
+  PetaboxLoader3.resolve: 562.82 (3)
+  load_resource: 357.115
+*/

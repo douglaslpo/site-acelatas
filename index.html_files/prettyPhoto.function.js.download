@@ -1,0 +1,33 @@
+$(document).ready(function(){
+$("a[rel^='prettyPhoto']").prettyPhoto({theme: 'pp_default',show_title: false,});
+});
+
+// Default theme - 'pp_default'
+// Facebook inspired theme - 'facebook'
+// Dark rounded semi-transparent theme - 'dark_rounded'
+// Dark square semi-transparent theme - 'dark_square'
+// Light square theme - 'light_square'
+// Light rounded theme - 'light_rounded'
+
+
+/*
+     FILE ARCHIVED ON 07:00:16 Jun 14, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:46:52 Jun 29, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 114.343 (3)
+  esindex: 0.008
+  captures_list: 131.631
+  CDXLines.iter: 13.141 (3)
+  PetaboxLoader3.datanode: 111.902 (5)
+  exclusion.robots: 0.267
+  exclusion.robots.policy: 0.253
+  RedisCDXSource: 0.895
+  PetaboxLoader3.resolve: 905.316 (2)
+  load_resource: 964.675
+*/

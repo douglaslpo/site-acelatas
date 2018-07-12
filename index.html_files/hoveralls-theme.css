@@ -1,0 +1,47 @@
+.post .img .overlay_backgrond,
+.frame-img .overlay_backgrond,
+.portfolio-gallery .overlay_backgrond{
+    background-image: url(/web/20180614070044im_/http://acelatas.com.br/old/wp-content/themes/123theme/assets/images/icons/overlay_zoom-in.png);
+    background-repeat: no-repeat;
+    outline: 0 none;
+    text-indent: -9999px;
+    margin: -27px 0 0 -27px;
+}
+#container .overlay_backgrond{
+    background-image: url(/web/20180614070044im_/http://acelatas.com.br/old/wp-content/themes/123theme/assets/images/icons/overlay_zoom-in.png);
+    background-repeat: no-repeat;
+    outline: 0 none;
+    text-indent: -9999px;
+    margin: -27px 0 0 -27px;
+}
+.post .img .overlay_backgrond,
+.frame-img.link .overlay_backgrond,
+/*.front-img.link_ .overlay_backgrond,*/
+#container .link_ .overlay_backgrond{
+    background-image: url(/web/20180614070044im_/http://acelatas.com.br/old/wp-content/themes/123theme/assets/images/icons/overlay_link.png);
+}
+.hoveralls_container{
+    width: 100% !important;
+    height: auto !important;
+}
+/*
+     FILE ARCHIVED ON 07:00:44 Jun 14, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:46:35 Jun 29, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 81.966 (3)
+  esindex: 0.01
+  captures_list: 105.756
+  CDXLines.iter: 16.406 (3)
+  PetaboxLoader3.datanode: 237.474 (5)
+  exclusion.robots: 0.273
+  exclusion.robots.policy: 0.255
+  RedisCDXSource: 0.889
+  PetaboxLoader3.resolve: 777.601 (2)
+  load_resource: 977.653
+*/

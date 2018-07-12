@@ -1,0 +1,64 @@
+    $(function(){
+      
+      var $container = $('#container');
+
+      $container.isotope({
+        itemSelector : '.element',
+        layoutMode : 'fitRows'
+      });
+      
+      
+      var $optionSets = $('#options .option-set'),
+          $optionLinks = $optionSets.find('a');
+
+      $optionLinks.click(function(){
+        var $this = $(this);
+        // don't proceed if already selected
+        if ( $this.hasClass('selected') ) {
+          return false;
+        }
+        var $optionSet = $this.parents('.option-set');
+        $optionSet.find('.selected').removeClass('selected');
+        $this.addClass('selected');
+  
+        // make option object dynamically, i.e. { filter: '.my-filter-class' }
+        var options = {},
+            key = $optionSet.attr('data-option-key'),
+            value = $this.attr('data-option-value');
+        // parse 'false' as false boolean
+        value = value === 'false' ? false : value;
+        options[ key ] = value;
+        if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
+          // changes in layout modes need extra logic
+          changeLayoutMode( $this, options )
+        } else {
+          // otherwise, apply new options
+          $container.isotope( options );
+        }
+        
+        return false;
+      });
+
+      
+    });
+/*
+     FILE ARCHIVED ON 06:58:44 Jun 14, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:46:50 Jun 29, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 124.754 (3)
+  esindex: 0.009
+  captures_list: 159.257
+  CDXLines.iter: 29.047 (3)
+  PetaboxLoader3.datanode: 127.218 (5)
+  exclusion.robots: 0.192
+  exclusion.robots.policy: 0.175
+  RedisCDXSource: 1.719
+  PetaboxLoader3.resolve: 344.753 (2)
+  load_resource: 407.562
+*/

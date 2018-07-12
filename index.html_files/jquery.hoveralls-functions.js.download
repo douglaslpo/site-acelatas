@@ -1,0 +1,101 @@
+$(window).load(function () {
+
+    $('.tooltip').HoverAlls({
+        tooltip:true,
+        starts:"0px,18px",
+        ends:"0,23px",
+        returns:"0px,18px",
+        bg_class:"tooltipBg",
+        text_class:"tooltipTx",
+        speed_in:1000,
+        speed_out:380,
+        effect_in:"easeOutBack",
+        effect_out:"easeInSine",
+        bg_width:"199px",
+        bg_height:"auto",
+        container_class:"tooltip_container",
+        link_target:"_parent"
+    });
+    
+    $('.frame-img img').HoverAlls({
+        starts:"50%,100%",
+        ends:"50%,50%",
+        returns:"50%,100%",
+        bg_class:"overlay_backgrond",
+        text_class: false,
+        speed_in:400,
+        speed_out:400,
+        bg_width:"54px",
+        bg_height:"54px",
+        big_link:true,
+        container_class:"overlay_container",
+        link_target:"_parent"
+    });
+    
+    $('.post .img img').HoverAlls({
+        starts:"50%,100%",
+        ends:"50%,50%",
+        returns:"50%,100%",
+        bg_class:"overlay_backgrond",
+        text_class: false,
+        speed_in:400,
+        speed_out:400,
+        bg_width:"54px",
+        bg_height:"54px",
+        big_link:true,
+        container_class:"overlay_container",
+        link_target:"_parent"
+    });
+    
+    $('.portfolio-gallery img').HoverAlls({
+        starts:"50%,100%",
+        ends:"50%,50%",
+        returns:"50%,100%",
+        bg_class:"overlay_backgrond",
+        text_class: false,
+        speed_in:400,
+        speed_out:400,
+        bg_width:"54px",
+        bg_height:"54px",
+        big_link:true,
+        container_class:"overlay_container",
+        link_target:"_parent"
+    });
+  
+    $('.element img').HoverAlls({
+        starts:"50%,100%",
+        ends:"50%,50%",
+        returns:"50%,100%",
+        bg_class:"overlay_backgrond",
+        text_class: false,
+        speed_in:400,
+        speed_out:400,
+        bg_width:"54px",
+        bg_height:"54px",
+        big_link:true,
+        container_class:"overlay_container",
+        link_target:"_parent"
+    });
+  
+});
+/*
+     FILE ARCHIVED ON 07:01:41 Jun 14, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:46:48 Jun 29, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 114.496 (3)
+  esindex: 0.005
+  captures_list: 129.626
+  CDXLines.iter: 12.268 (3)
+  PetaboxLoader3.datanode: 56.216 (5)
+  exclusion.robots: 0.16
+  exclusion.robots.policy: 0.134
+  RedisCDXSource: 0.522
+  PetaboxLoader3.resolve: 393.081 (3)
+  load_resource: 395.506
+*/

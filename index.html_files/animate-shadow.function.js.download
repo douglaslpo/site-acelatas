@@ -1,0 +1,72 @@
+jQuery(document).ready(function() {	
+    animateShadow();
+});
+
+function animateShadow(){
+    
+    $('.portfolio-gallery a').mouseenter(function() {
+        $(this).stop(true,true).animate({boxShadow: '0 0 15px rgba(0, 0, 0, 0.1)'}, 200);
+        $(this).find('img').animate({opacity: 0.7}, 200);
+    
+    }).mouseleave(function(){
+        $(this).stop(true,true).animate({boxShadow: '0 0 0'}, 200);
+        $(this).find('img').animate({opacity: 1}, 200);
+    });
+    
+    $('.post .img.animate').mouseenter(function() {
+        $(this).stop(true,true).animate({boxShadow: '0 0 15px rgba(0, 0, 0, 0.1)'}, 200);
+        $(this).find('img').animate({opacity: 0.7}, 200);
+    
+    }).mouseleave(function(){
+        $(this).stop(true,true).animate({boxShadow: '0 0 0'}, 200);
+        $(this).find('img').animate({opacity: 1}, 200);
+    });
+    
+    $('.about .item').mouseenter(function() {
+        $(this).stop(true,true).animate({backgroundColor:'#fcfcfc', boxShadow: '0 0 15px rgba(0, 0, 0, 0.1)'}, 200);
+        $(this).find('.social').stop(true,true).animate({backgroundColor:'#fafafa'}, 200);
+    
+    }).mouseleave(function(){
+        $(this).stop(true,true).animate({backgroundColor:'#fafafa', boxShadow: '0 0 0'}, 200);
+        $(this).find('.social').stop(true,true).animate({backgroundColor:'#f5f5f5'}, 200)
+    });
+    
+    $('#container .element').mouseenter(function() {
+        $(this).stop(true,true).animate({backgroundColor:'#fcfcfc', boxShadow: '0 0 15px rgba(0, 0, 0, 0.1)'}, 200);
+        $(this).find('img').stop(true,true).animate({opacity: 0.7}, 200);
+        $(this).find('h4').addClass('hover');
+    
+    }).mouseleave(function(){
+        $(this).stop(true,true).animate({backgroundColor:'#fafafa', boxShadow: '0 0 0'}, 200);
+        $(this).find('img').stop(true,true).animate({opacity: 1}, 200);
+        $(this).find('h4').removeClass('hover');
+    });
+    
+    $('.woocommerce li.product').mouseenter(function() {
+        $(this).stop(true,true).animate({backgroundColor:'#fcfcfc', boxShadow: '0 0 15px rgba(0, 0, 0, 0.1)'}, 200);
+    }).mouseleave(function(){
+        $(this).stop(true,true).animate({backgroundColor:'#fafafa', boxShadow: '0 0 0'}, 200);
+    });
+
+}
+/*
+     FILE ARCHIVED ON 07:06:34 Jun 14, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:46:54 Jun 29, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 117.499 (3)
+  esindex: 0.009
+  captures_list: 138.154
+  CDXLines.iter: 15.229 (3)
+  PetaboxLoader3.datanode: 124.695 (5)
+  exclusion.robots: 0.205
+  exclusion.robots.policy: 0.19
+  RedisCDXSource: 1.825
+  PetaboxLoader3.resolve: 1358.582 (2)
+  load_resource: 1404.146
+*/

@@ -1,0 +1,25 @@
+		// initialise plugins
+		jQuery(function(){
+			jQuery('ul.sf-menu').superfish();
+		});
+/*
+     FILE ARCHIVED ON 07:08:37 Jun 14, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:46:48 Jun 29, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 235.717 (3)
+  esindex: 0.005
+  captures_list: 250.334
+  CDXLines.iter: 11.958 (3)
+  PetaboxLoader3.datanode: 185.198 (5)
+  exclusion.robots: 0.128
+  exclusion.robots.policy: 0.117
+  RedisCDXSource: 0.48
+  PetaboxLoader3.resolve: 412.062 (4)
+  load_resource: 658.363
+*/

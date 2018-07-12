@@ -1,0 +1,39 @@
+jQuery(document).ready(function() {	
+    footerClear();
+    footerFooter_();
+});
+
+function footerClear() {
+    $('<div class="clear"></div>').insertAfter("#footer .grid_3:nth-child(4n)");
+    $('<div class="clear"></div>').insertAfter("#footer .grid_4:nth-child(3n)");
+}
+
+
+function footerFooter_() {
+    var $minHeight = 648;
+    var $footerHeight = $('#footer').height(); 
+    if ($footerHeight > $minHeight){
+        $('.footer_').addClass('bottom_gradient')  
+    }
+}
+/*
+     FILE ARCHIVED ON 07:14:07 Jun 14, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:46:50 Jun 29, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 62.077 (3)
+  esindex: 0.011
+  captures_list: 79.271
+  CDXLines.iter: 13.173 (3)
+  PetaboxLoader3.datanode: 94.099 (5)
+  exclusion.robots: 0.277
+  exclusion.robots.policy: 0.257
+  RedisCDXSource: 0.663
+  PetaboxLoader3.resolve: 496.216 (2)
+  load_resource: 581.652
+*/
